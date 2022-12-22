@@ -15,7 +15,7 @@ function nomeIdade (nome, idade) {
 // erro na ordem
 console.log(nomeIdade(40, "Juliana"));
 
-function multiplica(numero1, numero2) {
+function multiplica(numero1 = 1, numero2 = 1) {
     return numero1*numero2;
 }
 
